@@ -10,6 +10,7 @@ public class RWOnly {
     }
 
     public void setMyname(String myname) {
-        Myname = myname;
+
+        this.Myname = myname;
     }
 }
