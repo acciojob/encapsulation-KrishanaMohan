@@ -3,7 +3,7 @@ package com.driver;
 
 
 public class RWOnly {
-    private String Myname="Krishana";
+    private String Myname ;
 
     public String getMyname() {
         return Myname;
