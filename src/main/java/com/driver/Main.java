@@ -1,12 +1,12 @@
 package com.driver;
 
 public class Main {
-  public static void main(String []args){
-      RWOnly obj= new RWOnly();
+    public static void main(String[] args) {
+        RWOnly obj = new RWOnly();
 
-     // name.Myname="mohan"; //java: Myname has private access in com.driver.RWOnly
+        // name.Myname="mohan"; //java: Myname has private access in com.driver.RWOnly
 
-        obj.setMyname("Mohan");
-        System.out.println(obj.getMyname());
-  }
+        obj.setName("Mohan");
+        obj.getName();
+    }
 }
